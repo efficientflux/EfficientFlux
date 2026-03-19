@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi there, I'm EfficientFlux 👋
 
-<!--
-**efficientflux/EfficientFlux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Founder of **EfficientFlux** - Delivering SaaS tools for optimization data insights to gain efficiency in Supply Chain, Maintenance, Operations
 
-Here are some ideas to get you started:
+### What I do
+- Custom SaaS solutions for process optimization
+- Analytics dashboards & AI-powered insights
+- Consulting for business ready to scale efficiency
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Let's connect
+- 📧admin@efficientflux.com
+- 💼open to consulting projects
+
+---
+Built with passion in Texas 🚀 and Latin America 🌐
+
+
