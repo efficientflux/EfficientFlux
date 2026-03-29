@@ -38,11 +38,13 @@ export default function DashboardPage() {
       if (!user) return
 
       // Get organization
-      const { data: membership } = await supabase
-        .from('organization_members')
-        .select('organization_id, organizations(name)')
-        .eq('user_id', user.id)
-        .single()
+      const { data: memberships } = await supabase
+  .from('organization_members')
+  .select('organization_id, organizations(name)')
+  .eq('user_id', user.id)
+
+const membership = memberships?.[0]
+
 
       if (!membership) return
 

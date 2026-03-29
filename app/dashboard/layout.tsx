@@ -50,11 +50,14 @@ export default function DashboardLayout({
       setUserEmail(user.email || '')
 
       // Get organization name
-      const { data: membership } = await supabase
-        .from('organization_members')
-        .select('organizations(name)')
-        .eq('user_id', user.id)
-        .single()
+      const { data: memberships } = await supabase
+  .from('organization_members')
+  .select('organizations(name)')
+  .eq('user_id', user.id)
+
+const membership = memberships?.[0]
+
+
 
       if (membership?.organizations) {
         const org = membership.organizations as { name: string }
